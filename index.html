@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brunno Rogério Photography</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Brunno Rogério</h1>
+    <nav>
+      <a href="#galeria">Galeria</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Natureza e Esportes Através da Lente</h2>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div id="filtros">
+      <button onclick="filtrarCategoria('todas')">Todas</button>
+      <button onclick="filtrarCategoria('natureza')">Natureza</button>
+      <button onclick="filtrarCategoria('esportes')">Esportes</button>
+    </div>
+    <div class="grid" id="galeria-fotos"></div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>Sou Brunno Rogério, amante da fotografia de natureza e esportes como surfe, vôlei e futebol. Busco capturar a beleza e intensidade dos momentos que a maioria não vê.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Brunno Rogério. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
